@@ -1,0 +1,53 @@
+.index_box{
+    box-align: center;
+    text-decoration: blue;
+    margin: 12px;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: rgba(49, 175, 32, 0.808);
+    line-height: 0.1;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    width: 50%; /*reduce el tamaño de imagen al 25%*/
+    margin-bottom: 15px;
+}
+
+.sociallogo {
+    width: 4%;
+    float: right;
+    padding: 5px;
+}
+
+nav {
+    float: left;
+    overflow: hidden;
+    background-color: green;
+    width: 100%; /*establece el ancho de la barra de navegacion a lo ancho de toda la pagina*/
+    margin: -1% -1% 1% -1%; /*elimina los margenes que qeudaron de la linea anterior*/
+}
+
+nav a {
+    display: inline-block; /*permite visualizar los links en bloques de forma horizontal*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+nav a:hover {
+    background-color: greenyellow; /*aclara el color de los botones al pasar el cursor sobre ellos*/
+}
